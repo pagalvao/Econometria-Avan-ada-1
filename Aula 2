@@ -1,0 +1,19 @@
+x <- 1 : 4
+y  <- seq ( de  =  1 , para  =  10 , por  =  1 ) =  sequencia  de  um  em  um  de  1  a  dez .
+rep ( 10 , 4 ) =  repete  o  10  Quatro  vezes
+y  <- rep ( 3 , 10 )
+ls () =  Retorna  Lista  de  Objetos  existentes
+RM () =  apaga  Objetos 
+rm ( list  = ) =  apaga  uma  lista  de  objetos 
+rm ( lis = ls ()) =  apaga  TODOS  OS  Objetos
+um > =  Valores  MAIORES  that  o  n  fazer  Lado  do  Sinal Maior ( VDD  OU  falso )
+a ==  busca  apenas  o  valor  depois  do  segundo  sinal  de  igual
+rnorm  =  Retorna  Valores  em  Distribui CA o  normal,  e  seguindo  Desvio  padrao . ex :  x  <- rnorm ( 10 , média  =  10 , sd  =  2 )
+runif  =  gera  valores  uniformes .
+install.packages () =  Instala  Pacotes de Viagens  Adicionais 
+subconjunto () =  escolhe  um  informa Ca O , Linha  e  Coluna . Busca  um  informa ça o  em  Uma  Tabela  COM  MAIS  Dados
+exemplo :  >  br  <- subconjunto ( pwt8.0 , país  ==  " brasil " , select  = c ( rgdpna , avh , xr ))
+colnames = muda  nome  de  colunas  e  linhas
+enredo () =  grafico simples ( COLOCAR  O  $  NA  FRENTE  DO  NOME  DA  COLONUA )
+ts () =  define  séries  temporais
+exemplo : dados  <- ts ( br , start = 1950 , freq = 1 ); trama ( dados )
